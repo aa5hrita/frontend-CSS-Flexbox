@@ -1,0 +1,6 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-direction: column; /* top to bottom */
+    /* flex-direction: row; left to right */
+  }
