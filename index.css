@@ -1,18 +1,17 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    flex-direction: row; /* top to bottom */
+    flex-direction: column; /* top to bottom */
     /* flex-direction: row; left to right */
     justify-content: flex-end; /* defines how the content of the element is positioned across the main axis */
     /* options: flex-start flex-end center space-around space-between space-evenly */      
     height: 100%;
-    align-items: center;
+    align-items: flex-end;
 }
-
+/*
 .home {
     margin-right: auto;
 }
-
 .logout {
     align-self: flex-start;
 }
@@ -20,9 +19,9 @@
     align-self: flex-end;
 }
 .container > div {
-    flex: 1;    
-    /* flex-grow, flex-shrink, flex-basis )*/
+    flex: 1;   flex-grow, flex-shrink, flex-basis 
 }
+*/
 /*
 .container > .search {
     flex: 2;
