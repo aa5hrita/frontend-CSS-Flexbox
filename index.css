@@ -1,13 +1,19 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    flex-direction: column; /* top to bottom */
+    flex-direction: row; /* top to bottom */
     /* flex-direction: row; left to right */
-    justify-content: flex-end; /* defines how the content of the element is positioned across the main axis */
+    justify-content: flex-start; /* defines how the content of the element is positioned across the main axis */
     /* options: flex-start flex-end center space-around space-between space-evenly */      
-    height: 100%;
-    align-items: flex-end;
+
 }
+.home {
+    flex: 1 1 200px;
+  }
+  
+  .logout {
+    flex: 10 1 200px;
+  }
 /*
 .home {
     margin-right: auto;
@@ -19,7 +25,7 @@
     align-self: flex-end;
 }
 .container > div {
-    flex: 1;   flex-grow, flex-shrink, flex-basis 
+    flex: 1;   flex-grow=1, flex-shrink=1, flex-basis=1 
 }
 */
 /*
