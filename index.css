@@ -4,13 +4,21 @@
     flex-direction: row; /* top to bottom */
     /* flex-direction: row; left to right */
     justify-content: flex-end; /* defines how the content of the element is positioned across the main axis */
-    /* options: flex-start flex-end center space-around space-between space-evenly */  
+    /* options: flex-start flex-end center space-around space-between space-evenly */      
+    height: 100%;
+    align-items: center;
 }
 
 .home {
     margin-right: auto;
 }
 
+.logout {
+    align-self: flex-start;
+}
+.home {
+    align-self: flex-end;
+}
 .container > div {
     flex: 1;    
     /* flex-grow, flex-shrink, flex-basis )*/
