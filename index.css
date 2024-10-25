@@ -1,12 +1,13 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    flex-direction: row; /* top to bottom */
+    /*flex-direction: row; /* top to bottom */
     /* flex-direction: row; left to right */
-    justify-content: flex-start; /* defines how the content of the element is positioned across the main axis */
+    /*justify-content: flex-start; /* defines how the content of the element is positioned across the main axis */
     /* options: flex-start flex-end center space-around space-between space-evenly */      
 
 }
+/*
 .item1 {
     order: 1;
   }
@@ -51,3 +52,30 @@
     flex: 1;
 }
 */
+
+.search {
+    flex: 1;
+}
+  
+@media all and (max-width: 600px) {
+    .container {
+      flex-wrap: wrap;
+    }
+    .container > li {
+      flex: 1 1 50%;
+    }
+    
+    .search > input {
+      text-align: center;
+    }
+}
+  
+@media all and (max-width: 400px) {
+    .container > li {
+      flex: 1 1 100%;
+    }
+    .search {
+      order: 1;
+    }
+}
+  
