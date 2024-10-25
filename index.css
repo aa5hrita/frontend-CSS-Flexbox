@@ -7,6 +7,17 @@
     /* options: flex-start flex-end center space-around space-between space-evenly */      
 
 }
+.item1 {
+    order: 1;
+  }
+  
+  .item2 {
+    order: 0;
+  }
+  
+  .item3 {
+    order: -1;
+  }
 .home {
     flex: 1 1 200px;
   }
