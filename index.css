@@ -1,6 +1,13 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    flex-direction: column; /* top to bottom */
+    flex-direction: row; /* top to bottom */
     /* flex-direction: row; left to right */
-  }
+    justify-content: flex-end; /* defines how the content of the element is positioned across the main axis */
+    /* options: flex-start flex-end center space-around space-between space-evenly */  
+}
+
+
+.home {
+    margin-right: auto;
+}
